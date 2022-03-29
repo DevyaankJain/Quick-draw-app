@@ -1,0 +1,47 @@
+body
+{
+background-color: rgb(0, 0, 0);
+}
+#show_sketch
+{
+    float: right;
+    color: white;
+    background-color: black;
+}
+h1
+{
+ color: rgb(255, 255, 255);
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+background-color: rgb(42, 42, 42);
+text-align: center;
+}
+#YourSketch
+{
+color: white;
+font-size: 30px;
+}
+#confidence
+{
+    color: white;
+    font-size: 30px;
+}
+#clear_canvas
+{
+    background-color: black;
+    color: white;
+}
+canvas
+{
+    border: 2.5px ridge red;
+    border-radius: 90px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from {box-shadow: 15px 15px 15px gray;}
+    to {box-shadow: 15px 15px 15px white;}
+}
